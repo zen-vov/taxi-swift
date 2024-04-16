@@ -25,7 +25,7 @@ export default function Choose(){
     }
     else
     {return(
-        <div className="flex flex-col items-center justify-center bg-primary h-[828px]">
+        <div className="flex flex-col items-center justify-center bg-primary h-[840px]">
             <h1 className="pt-[107px] mb-[37px] text-3xl text-white font-semibold">
                 Swift
             </h1>
