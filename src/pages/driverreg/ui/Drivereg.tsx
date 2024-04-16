@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Button from "../../../shared/button/ui/button";
 import Icons from "../../../features/Icons/ui/Icons";
 
@@ -10,7 +11,7 @@ export default function DriveReg(){
     ];
     return(
         <div className="relative h-[828px]">
-                <img className=" h-[232px] rounded-b-[20px]"src="./bg-images/Large-swiftbg.png" alt="" />
+                <img className=" h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
                 <div className="absolute left-[23px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
                     <p className="text-[30px] text-white mb-[17px]">Sign Up</p>
                     {text.map((item,index) =>(
@@ -21,9 +22,9 @@ export default function DriveReg(){
                         className="w-[330px] h-[60px] bg-primary text-white mb-[30px] rounded-[20px] mb-[60px] mt-[30px]"
                         title="Next"
                     />
-                    <div className="flex justify-center gap-[5px] mb-[60px]">
+                    <div className="flex justify-center gap-[5px] mb-[60px] text-[14px]">
                         <p className="text-primary"> Do you have an account?</p>
-                        <a className="text-green font-mediums" href="">Log in</a>
+                        <Link to="/app/loginDrive" className="text-green font-mediums">Log in</Link>
                     </div>
                     <Icons/>
                 </div>  
