@@ -12,9 +12,9 @@ export default function Icons(){
     ];
 
     return (
-        <ul className="flex justify-content gap-[30px]">
+        <ul className="flex items-center justify-center pr-[35px]">
             {iconlist.map((icon, index) => (
-                <li className="item relative" key={index}>
+                <li className="item relative ml-[40px]" key={index}>
                     {icon}
                     <span className="circle"></span>
                 </li>

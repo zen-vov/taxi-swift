@@ -11,8 +11,8 @@ export default function DriveReg(){
     ];
     return(
         <div className="flex justify-center">
-            <div className="relative h-[840px] w-[410px] ">
-                <img className="w-[410px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
+            <div className="relative h-[840px] w-[413px] ">
+                <img className="w-[413px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
                 <div className="absolute left-[33px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
                     <p className="text-[30px] text-white mb-[17px]">Sign Up</p>
                     {text.map((item,index) =>(
