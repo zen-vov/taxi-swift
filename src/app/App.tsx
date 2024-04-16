@@ -3,7 +3,7 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <div className="">
+    <div className="flex justify-center">
       <Outlet></Outlet>
     </div>
   );
