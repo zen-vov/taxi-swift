@@ -10,8 +10,8 @@ export default function DriveReg(){
     "Create password"
     ];
     return(
-        <div className="relative h-[828px]">
-                <img className=" h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
+        <div className="relative h-[828px] w-[384px]">
+                <img className="w-[384px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
                 <div className="absolute left-[23px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
                     <p className="text-[30px] text-white mb-[17px]">Sign Up</p>
                     {text.map((item,index) =>(

@@ -26,15 +26,15 @@ export default function LoginPS() {
   };
 
   return (
-    <div className="relative h-[828px]">
-      <img className=" h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
+    <div className="relative h-[828px] w-[384px]">
+      <img className=" w-[384px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
       <div className="flex justify-center">
           <Link to ="/" className="absolute left-[20px] top-[20px]">
             <Arrow/>
           </Link>
        </div> 
       <div className="absolute left-[23px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
-        <p className="text-[30px] text-white mb-[17px]">Sign In Pass</p>
+        <p className="text-[30px] text-white mb-[17px]">Sign In</p>
         <form className="w-[330px]" onSubmit={onSubmit}>
           {text.map((item,index) =>(
               <input key={index} className="bg-input text-input font-medium w-[330px] h-[60px] rounded-[20px] pl-[25px] mb-[20px]" type="text" placeholder={item} />
