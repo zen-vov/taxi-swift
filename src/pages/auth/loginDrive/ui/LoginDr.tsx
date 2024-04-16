@@ -27,14 +27,14 @@ export default function LoginDR() {
 
   return (
     <div className="flex justify-center">
-      <div className="relative h-[828px] w-[390px] ">
-      <img className=" w-[390px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
+      <div className="relative h-[840px] w-[410px] ">
+      <img className=" w-[410px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
        <div className="flex justify-center">
           <Link to ="/" className="absolute left-[20px] top-[20px]">
             <Arrow/>
           </Link>
        </div>  
-      <div className="absolute left-[23px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
+      <div className="absolute left-[33px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
         <p className="text-[30px] text-white mb-[17px]">Sign In</p>
         <form className="w-[330px]" onSubmit={onSubmit}>
           {text.map((item,index) =>(
