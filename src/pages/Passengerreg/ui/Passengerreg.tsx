@@ -2,7 +2,7 @@ import React from "react";
 import Button from "../../../shared/button/ui/button";
 import Icons from "../../../features/Icons/ui/Icons";
 
-export default function DriveReg(){
+export default function PassengerReg(){
     const text = [
     "Name",
     "Phone number",
