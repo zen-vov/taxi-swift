@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./app/App";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 import Login from "./pages/auth/ui/Login";
 import Dashboard from "./pages/Dashboard/ui/Dashboard";
 import ProfilePage from "./pages/profile/ui/ProfilePage";
