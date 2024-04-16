@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../../../shared/button/ui/button";
+import Arrow from "../../../shared/Icons/arrow/ui/arrow";
 import DriveReg from "../../driverreg/ui/Drivereg";
 import PassengerReg from "../../Passengerreg/ui/Passengerreg";
 
@@ -15,7 +16,7 @@ export default function Choose() {
     return <PassengerReg />;
   } else {
     return (
-      <div className="flex flex-col items-center justify-center bg-primary h-[828px] w-[390px]">
+      <div className="flex flex-col items-center justify-center bg-primary h-[828px]">
         <h1 className="pt-[107px] mb-[37px] text-3xl text-white font-semibold">
           Swift
         </h1>

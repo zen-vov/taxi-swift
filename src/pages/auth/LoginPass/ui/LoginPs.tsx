@@ -26,8 +26,9 @@ export default function LoginPS() {
   };
 
   return (
-    <div className="relative h-[828px] w-[390px] ">
-      <img className=" w-[384px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
+    <div className="flex justify-center">
+      <div className="relative h-[828px] w-[390px] ">
+      <img className=" w-[390px] h-[232px] rounded-b-[20px]"src="/bg-images/Large-swiftbg.png" alt="" />
       <div className="flex justify-center">
           <Link to ="/" className="absolute left-[20px] top-[20px]">
             <Arrow/>
@@ -37,7 +38,7 @@ export default function LoginPS() {
         <p className="text-[30px] text-white mb-[17px]">Sign In</p>
         <form className="w-[330px]" onSubmit={onSubmit}>
           {text.map((item,index) =>(
-              <input key={index} className="bg-input text-input font-medium w-[330px] h-[60px] rounded-[20px] pl-[25px] mb-[20px]" type="text" placeholder={item} />
+              <input key={index} className="bg-input text-input font-medium w-[330px] h-[60px] rounded-[20px] pl-[25px] mb-[20px] ml-[6px]" type="text" placeholder={item} />
           ))}
           <p className=" text-base text-right pr-[10px]">
             <a className="text-primary font-medium" href="">Forget password</a>  
@@ -59,6 +60,7 @@ export default function LoginPS() {
         </form>
       </div>
       <img className="pt-[400px]" src="/cars/left-car.png" alt="" />
+    </div>
     </div>
   );
 }
