@@ -9,7 +9,7 @@ export default function DriveReg(){
     "Create password"
     ];
     return(
-        <div className="relative">
+        <div className="relative h-[828px]">
                 <img className=" h-[232px] rounded-b-[20px]"src="./bg-images/Large-swiftbg.png" alt="" />
                 <div className="absolute left-[23px] top-[140px] flex flex-col justify-center items-center mb-[30px]">
                     <p className="text-[30px] text-white mb-[17px]">Sign Up</p>
@@ -21,7 +21,7 @@ export default function DriveReg(){
                         className="w-[330px] h-[60px] bg-primary text-white mb-[30px] rounded-[20px] mb-[60px] mt-[30px]"
                         title="Next"
                     />
-                    <div className="flex justify-center gap-[5px] mb-[50px]">
+                    <div className="flex justify-center gap-[5px] mb-[60px]">
                         <p className="text-primary"> Do you have an account?</p>
                         <a className="text-green font-mediums" href="">Log in</a>
                     </div>
