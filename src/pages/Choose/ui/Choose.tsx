@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../../../shared/button/ui/button";
 import Arrow from "../../../shared/Icons/arrow/ui/arrow";
 import DriveReg from "../../driverreg/ui/Drivereg";
+import PassengerReg from "../../Passengerreg/ui/Passengerreg";
 
 export default function Choose(){
 
@@ -17,11 +18,7 @@ export default function Choose(){
     }
     else if(RoleChange === "Passenger"){
         return(
-            <div className="flex justify-center">
-                <button className="absolute left-[20px] top-[20px]" onClick={ ()=> RoleChanging("")}>
-                    <Arrow/>
-                </button>
-            </div>   
+            <PassengerReg/>
         )
     }
     else
