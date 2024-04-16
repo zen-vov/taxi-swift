@@ -3,7 +3,7 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <div className="m-[1rem]">
+    <div className="">
       <Outlet></Outlet>
     </div>
   );
