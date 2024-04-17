@@ -3,7 +3,7 @@ import "./styles/App.css";
 
 function App() {
   return (
-    <div className="">
+    <div className="App h-screen">
       <Outlet></Outlet>
     </div>
   );
