@@ -18,7 +18,8 @@ module.exports = {
       },
       backgroundColor:{
         primary: "#706FDE",
-        input:"#F8F8F8"
+        input:"#F8F8F8",
+        decorate:"#E2E2E2"
       }
     },
   },

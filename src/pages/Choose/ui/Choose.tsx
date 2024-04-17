@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../../../shared/button/ui/button";
-import Arrow from "../../../shared/Icons/arrow/ui/arrow";
 import DriveReg from "../../driverreg/ui/Drivereg";
 import PassengerReg from "../../Passengerreg/ui/Passengerreg";
 
