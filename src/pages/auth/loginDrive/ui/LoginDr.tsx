@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import Button from "../../../../shared/button/ui/button";
 import Arrow from "../../../../shared/Icons/arrow/ui/arrow";
+import Loading from "../../../Loading/ui/loading";
 
 export default function LoginDR() {
 
@@ -44,7 +45,7 @@ export default function LoginDR() {
             <a className="text-primary font-medium" href="">Forget password</a>  
           </p>
           {loading ? (
-            <div>Loading...</div>
+            <div><Loading/></div>
           ) : (
             <Button
               className="w-[330px] h-[60px] bg-primary text-white mb-[30px] rounded-[20px] mb-[60px] mt-[24px]"
